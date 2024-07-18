@@ -1,0 +1,98 @@
+.MainForm {
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: white;
+    padding: 80px 60px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family:'Arial';
+    
+}
+html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(18, 157, 129);
+}
+.h1
+{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-style: bold;
+}
+
+.h2
+{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+label
+{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: gray;
+}
+
+input {
+    display: inline;
+    margin-left: 10%;
+    padding-left: 2%;
+    width: 270px;
+    height: 25px;
+    border:none;
+    background-color: rgba(232, 232, 232, 0.995);
+
+    
+}
+
+
+.Input
+{
+    padding: 10px 0;
+}
+
+.Button
+{
+    margin: 15px 0;
+    width: 310px;
+    height: 35px;
+    font-size: 10px;
+    background-color: rgb(18, 157, 129);
+    color: white;
+    font-style: bold;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Footer
+{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+}
+
+i{
+    
+    display: inline-block;
+    position: absolute;
+    padding-left: 7px;
+    padding-top: 7px;
+
+    color: white;
+    width: 23px;
+    height: 20px;
+    font-size: smaller;
+    background-color: rgb(18, 157, 129);
+}

@@ -1,0 +1,5 @@
+Bài Tập Về Nhà:
+[Bài tập 1] Viết hàm tính tổng các số từ 1 đến 100.
+[Bài tập 2] Tạo một mảng chứa 5 phần tử số, sau đó tính tổng và trung bình cộng của các phần tử trong mảng.
+[Bài tập 3] Viết hàm kiểm tra xem một chuỗi có phải là palindrome hay không.
+[Bài tập 4] Tạo một object đại diện cho một học sinh, với các thuộc tính như tên, tuổi, điểm trung bình, sau đó viết hàm để in ra thông tin của học sinh.
