@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li {
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li.pending {
+    color: red;
+}
+
+.task-category {
+    font-style: italic;
+    font-size: 15 px;
+    color: blue;
+    margin:0 100px;
+}
+
+select{  
+    padding: 5px 10px;
+    font-size: 15px;
+    margin:0 30px;
+}
+
+button {
+    background-color: #0cc27f; 
+    border: none;
+    color: white;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input{
+    padding: 3px 20px;
+    font-size: 15px;
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(18, 157, 129);
+}
+
+#Main
+{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    padding: 80px 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family:'Arial';    
+}

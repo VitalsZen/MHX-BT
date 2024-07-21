@@ -1,0 +1,10 @@
+Bài tập: Code lại và hoàn thiện web todo list với giao diện đẹp hơn. 
+- Thêm trường status cho mỗi task để đánh giá tiến độ của task theo 3 cấp độ: Pending, In Progress, Completed. 
+- Cho phép tạo danh mục để phân loại task. 
+- Mỗi danh mục phải có tên duy nhất, không được trùng lặp. 
+- Đảm bảo thông tin về các task, bao gồm status và category, không bị mất khi người dùng refresh trình duyệt. 
+Gợi ý: dùng localStorage để lưu. 
+- Hướng dẫn chạy chương trình web todo-list trên VSCode: 
+- Vào mục Extensions của vscode và cài đặt Live Server. 
+- Bấm chuột phải vào file HTML bạn muốn chạy và chọn Option “Open with Live Server”. 
+Chương trình của bạn sẽ được hiện lên trên trình duyệt với host là localhost.
